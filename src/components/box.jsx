@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Box = () => (
-  <div className="boxed"></div>
+const Box = ({className, id}) => (
+  <div id={id} className={className}></div>
 );
 
 export default Box;

@@ -6,11 +6,76 @@
   color: red;
 }
 
-.boxed {
-  width: 10px;
-  height: 10px;
+.container {
+  margin: 5% auto;
+  margin-top: 5%;
+  width: 30%;
+  padding: 20px 40px;
+  background-color: white;
+  opacity: 0.9;
+  margin-bottom: 100px;
+}
+
+input[type=email], input[type=password], input[type=text],  input[type=date], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+ .form {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
   border: 1px solid blue;
   align-content: center;
+  display: inline-block;
+}
+
+.player {
+  background-image: url(../src//images/player.jpg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.maze {
+  background-image: url(../src//images/maze.jpg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.active {
+  color: black;
 }
 
 .App-logo {

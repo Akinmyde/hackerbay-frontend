@@ -11,7 +11,7 @@ const Form = ({onInputChange, onButtonClick, error}) => (
       <input onChange={onInputChange} name='width' id='width' type='text' required />
     </div>
     <div>
-      <button onClick={onButtonClick}>Continue</button>
+      <button className='form' onClick={onButtonClick}>Continue</button>
     </div>
   </form>
 )
